@@ -43,9 +43,9 @@ If you hit enter on a directory rather than a file, you can use the arrow keys a
 ## Opening multiple windows
 
 Now, you almost certainly don't want everything in 1 window and have to keep switching back and forth. Luckily you don't have to:  
-`C-x 3` will split vertically
-`C-x 2` will split horizontally
-`C-x 1` will return to one window
-`C-x 0` will delete the current split you're working in
+`C-x 3` will split vertically  
+`C-x 2` will split horizontally  
+`C-x 1` will return to one window  
+`C-x 0` will delete the current split you're working in  
 
 
