@@ -4,7 +4,7 @@ A quick start guide for Emacs for R users, for people that have never used Emacs
 
 I'm basically going to walk through from starting, to setting up a workspace, to doing something useful, in order.
 
-I don't care if this isn't complete, or covers every point in infinite detail. This will work enough to get you started, and cover some of the most obvious niggles an R user new to Emacs will run up against. There are a plethora of more complicated guides to using the full power of Emacs, which can be explored after getting started as specific issues arise.
+I don't care if this isn't complete, or covers every point in infinite detail. This will work enough to get you started, and cover some of the most obvious niggles an R user new to Emacs will run up against. There are a plethora of more complicated guides to using the full power of Emacs, which can be explored as specific issues arise.
 
 # Install the software
 
