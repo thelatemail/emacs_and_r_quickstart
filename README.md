@@ -4,7 +4,7 @@ A quick start guide for Emacs for R users, for people that have never used Emacs
 
 I'm basically going to walk through from starting, to setting up a workspace, to doing something useful, in order.
 
-I don't care if this isn't complete, or covers every point. It works enough to get you started. End of story.
+I don't care if this isn't complete, or covers every point in infinute detail. This will work enough to get you started, and cover some of the most obvious niggles an R user new to Emacs will run up against.
 
 # Install the software
 
@@ -55,5 +55,18 @@ You're not going to get very far without copying and pasting from Stackoverflow.
 `C-w` = cut  
 `C-y` = paste (yank)  
 
+## Running code
 
+### At the prompt
+If you're in the \*R\* window, just use R like you normally would. Type at the prompt and hit enter to evaluate code.
+
+If you want to re-run or edit previously entered code:  
+`C-p` = cycle backwards to *previous* submissions
+`C-n` = cycle forward to *next* submissions
+
+`TAB` completion still works like it does in any R prompt.
+
+There's shortcuts for running lines, paragraphs, functions, etc from a script. But in the short-term, there is one shortcut to rule them all.  
+Highlight the code you want to run and `C-c`  
+This 
 
