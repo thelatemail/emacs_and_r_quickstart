@@ -45,6 +45,9 @@ Now, you almost certainly don't want everything in 1 window and have to keep swi
 
 Resizing horizontal splits is obvious, grab that divider and drag away. Not so much vertical splits. There's a tiny little grey dividing line at the bottom of the total Emacs window which you can use to resize. See the image below.
 
+![Alt](/03-resize_horizontal.png "Resizing horizontally")
+
+
 ## Switching between windows and buffers
 
 `C-x o` (that's oh, not zero) will cycle through the windows you currently have open.  
@@ -73,5 +76,6 @@ If you want to re-run or edit previously entered code:
 
 There's shortcuts for running lines, paragraphs, functions, etc from a script. But in the short-term, there is one shortcut to rule them all.  
 Highlight the code you want to run and `C-c`  
-This 
+
+
 
