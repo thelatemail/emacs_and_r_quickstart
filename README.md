@@ -1,6 +1,6 @@
 # Emacs and R quickstart
 
-A quick start guide for Emacs for R users, for people that have never used Emacs, and don't care about all the non-R functionality.
+A quick start guide for Emacs for R users, for people that have never used Emacs, and don't care about all the R-irrelevant functionality.
 
 I'm basically going to walk through from starting, to setting up a workspace, to doing something useful, in order.
 
