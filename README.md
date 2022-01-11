@@ -26,7 +26,7 @@ e.g., `M-x` means Alt-x
 
 # Starting an R session
 
-Assuming you have both R and Emacs installed, type `M-x R`
+Assuming you have both R and Emacs installed, type `M-x R`  
 Boom, you have an R session running in Emacs.
 
 ## Opening a script
