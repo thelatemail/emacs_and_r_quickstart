@@ -81,5 +81,7 @@ Something a little different is the ability to directly move your cursor to a pr
 There are shortcuts for executing lines, paragraphs, functions, etc from a script. But in the short-term, there is one shortcut to rule them all:  
 Highlight the code you want to run and `C-c C-c`
 
+## Getting help, aka RTFM
 
+The standard old `?function` will open the help file as requested, typically within a new window in Emacs. E.g. `?table` for help on the base R `table` function.  You can also use `C-c C-v` while at the R prompt, which will prompt you to start entering the function you would like to read the documentation for.
 
