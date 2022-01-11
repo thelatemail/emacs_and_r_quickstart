@@ -8,7 +8,7 @@ I don't care if this isn't complete, or covers every point in infinite detail. T
 
 # Install the software
 
-If you're a Windows user and not a masochist, use Vincent Goulet's excellent installer to get Emacs+ESS (Emacs Speaks Statistics) https://vigou3.gitlab.io/emacs-modified-windows/ installed.  
+If you're a Windows user and not a masochist, use Vincent Goulet's excellent installer ( https://vigou3.gitlab.io/emacs-modified-windows/ ) to get Emacs+ESS (Emacs Speaks Statistics) installed.  
 If you're on some flavour of Linux, load up your favourite package manager and grab the Emacs and ESS packages.
 
 # Basic shortcut starting points
@@ -43,7 +43,7 @@ Now, you almost certainly don't want everything in 1 window and have to keep swi
 `C-x 1` will return to one window  
 `C-x 0` will delete the current split you're working in  
 
-Resizing horizontal splits is obvious, grab that divider and drag away. Not so much vertical splits. There's a tiny little grey dividing line at the bottom of the total Emacs window which you can use to resize. See the image below.
+Resizing horizontal splits is obvious, grab that divider and drag away. Not so much vertical splits. There's a tiny, not at all obvious, grey dividing line at the bottom of the total Emacs window which you can use to resize. See the image below.
 
 ![Alt](/03-resize_horizontal.png "Resizing horizontally")
 
@@ -55,7 +55,7 @@ If you want to change which 'buffer', or content, is shown in the current window
 
 ## Typing, copying and pasting
 
-You're not going to get very far without copying and pasting from Stackoverflow. So:
+You're not going to get very far without copying and pasting from Stackoverflow. So, at the basics:
 
 `M-w` = copy  
 `C-w` = cut  
@@ -70,12 +70,16 @@ If you want to re-run or edit previously entered code:
 `C-p` = cycle backwards to *previous* submissions  
 `C-n` = cycle forward to *next* submissions  
 
+Something a little different is the ability to directly move your cursor to a previous line, edit the previous line and resubmit. Handy if you've made a silly error that needs correcting.
+
+![Alt](/04-correct.gif "Correcting a line above")
+
 `TAB` completion still works like it does in any other R instance.
 
 ### In an .R script
 
-There's shortcuts for running lines, paragraphs, functions, etc from a script. But in the short-term, there is one shortcut to rule them all.  
-Highlight the code you want to run and `C-c`  
+There's shortcuts for running lines, paragraphs, functions, etc from a script. But in the short-term, there is one shortcut to rule them all:  
+Highlight the code you want to run and `C-c`
 
 
 
