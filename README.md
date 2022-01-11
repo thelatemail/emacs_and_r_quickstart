@@ -4,7 +4,7 @@ A quick start guide for Emacs for R users, for people that have never used Emacs
 
 I'm basically going to walk through from starting, to setting up a workspace, to doing something useful, in order.
 
-I don't care if this isn't complete, or covers every point in infinute detail. This will work enough to get you started, and cover some of the most obvious niggles an R user new to Emacs will run up against.
+I don't care if this isn't complete, or covers every point in infinite detail. This will work enough to get you started, and cover some of the most obvious niggles an R user new to Emacs will run up against. There are a plethora of more complicated guides to using the full power of Emacs, which can be explored after getting started as specific issues arise.
 
 # Install the software
 
@@ -32,7 +32,8 @@ Boom, you have an R session running in Emacs.
 ## Opening a script
 
 `C-x C-f` and type the path to a script and hit enter - remember you can use tab completion to avoid typing every letter.  
-If you hit enter on a directory rather than a file, you can use the arrow keys and Enter to navigate to a file.
+If you hit enter on a directory rather than a file, you can use the arrow keys and Enter to navigate to a file.  
+If the filename you've entered doesn't exist, Emacs will create a 'buffer' which when saved will write to the specified location.
 
 ## Opening multiple windows
 
@@ -41,6 +42,8 @@ Now, you almost certainly don't want everything in 1 window and have to keep swi
 `C-x 2` will split horizontally  
 `C-x 1` will return to one window  
 `C-x 0` will delete the current split you're working in  
+
+Resizing horizontal splits is obvious, grab that divider and drag away. Not so much vertical splits. There's a tiny little grey dividing line at the bottom of the total Emacs window which you can use to resize. See the image below.
 
 ## Switching between windows and buffers
 
@@ -61,10 +64,12 @@ You're not going to get very far without copying and pasting from Stackoverflow.
 If you're in the \*R\* window, just use R like you normally would. Type at the prompt and hit enter to evaluate code.
 
 If you want to re-run or edit previously entered code:  
-`C-p` = cycle backwards to *previous* submissions
-`C-n` = cycle forward to *next* submissions
+`C-p` = cycle backwards to *previous* submissions  
+`C-n` = cycle forward to *next* submissions  
 
-`TAB` completion still works like it does in any R prompt.
+`TAB` completion still works like it does in any other R instance.
+
+### In an .R script
 
 There's shortcuts for running lines, paragraphs, functions, etc from a script. But in the short-term, there is one shortcut to rule them all.  
 Highlight the code you want to run and `C-c`  
