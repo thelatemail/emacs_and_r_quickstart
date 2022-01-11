@@ -93,3 +93,6 @@ Highlight the code you want to run and `C-c C-c`
 The standard old `?function` will open the help file as requested, typically within a new window in Emacs. E.g. `?table` for help on the base R `table` function.  
 You can also use `C-c C-v` while at the R prompt, which will prompt you to start entering the function you would like to read the documentation for.
 
+## Find and replace
+
+
