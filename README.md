@@ -45,7 +45,7 @@ Now, you almost certainly don't want everything in 1 window and have to keep swi
 
 Resizing horizontal splits is obvious, grab that divider and drag away. Not so much vertical splits. There's a tiny, not at all obvious, grey dividing line at the bottom of the total Emacs window which you can use to resize. See the image below.
 
-![Alt](/03-resize_horizontal.png "Resizing horizontally")
+![Alt](/window_resizing.gif "Creating and resizing windows")
 
 
 ## Switching between windows and buffers
