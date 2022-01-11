@@ -67,8 +67,8 @@ You're not going to get very far without copying and pasting from Stackoverflow.
 If you're in the \*R\* window, just use R like you normally would. Type at the prompt and hit enter to evaluate code.
 
 If you want to re-run or edit previously entered code:  
-`C-p` = cycle backwards to *previous* submissions  
-`C-n` = cycle forward to *next* submissions  
+`M-p` = cycle backwards to *previous* submissions  
+`M-n` = cycle forward to *next* submissions  
 
 Something a little different is the ability to directly move your cursor to a previous line, edit the previous line and resubmit. Handy if you've made a silly error that needs correcting.
 
