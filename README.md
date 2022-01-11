@@ -29,11 +29,16 @@ e.g., `M-x` means Alt-x
 Assuming you have both R and Emacs installed, type `M-x R`  
 Boom, you have an R session running in Emacs.
 
-## Opening a script
+## Opening, creating, and saving an R script
 
 `C-x C-f` and type the path to a script and hit enter - remember you can use tab completion to avoid typing every letter.  
 If you hit enter on a directory rather than a file, you can use the arrow keys and Enter to navigate to a file.  
+
 If the filename you've entered doesn't exist, Emacs will create a 'buffer' which when saved will write to the specified location.
+
+Any file, already existing or currently being worked on, with the extension `.R` or `.r` will be treated as an R script, with syntax highlighting, and the ability to submit code directly to an R process.
+
+`C-x C-s` will save/overwrite the file refrenced by the active window.
 
 ## Opening multiple windows
 
