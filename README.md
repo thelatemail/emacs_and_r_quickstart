@@ -17,7 +17,7 @@ e.g., `M-x` means Alt-x
 
 You're not going to get very far without copying and pasting from Stackoverflow. So:
 
-`M-w` = copy
-`C-w` = cut
-`C-y` = paste (yank)
+`M-w` = copy  
+`C-w` = cut  
+`C-y` = paste (yank)  
 
