@@ -2,6 +2,8 @@
 
 A quick start guide for Emacs for R users, for people that have never used Emacs, and don't care about all the non-R functionality.
 
+I'm basically going to walk through from starting, to setting up a workspace, to doing something useful, in order.
+
 I don't care if this isn't complete, or covers every point. It works. End of story.
 
 # Install the software
@@ -17,14 +19,6 @@ e.g., `C-c` means Ctrl-c
 
 `M-` = hold the 'Meta' key, otherwise known as Alt on a normal person's keyboard  
 e.g., `M-x` means Alt-x
-
-# Copying and pasting
-
-You're not going to get very far without copying and pasting from Stackoverflow. So:
-
-`M-w` = copy  
-`C-w` = cut  
-`C-y` = paste (yank)  
 
 # I hit the wrong shortcut and I've ruined everything
 
@@ -47,5 +41,14 @@ Now, you almost certainly don't want everything in 1 window and have to keep swi
 `C-x 2` will split horizontally  
 `C-x 1` will return to one window  
 `C-x 0` will delete the current split you're working in  
+
+# Typing, copying and pasting
+
+You're not going to get very far without copying and pasting from Stackoverflow. So:
+
+`M-w` = copy  
+`C-w` = cut  
+`C-y` = paste (yank)  
+
 
 
