@@ -86,7 +86,7 @@ Something a little different is the ability to directly move your cursor to a pr
 There are shortcuts for executing lines, paragraphs, functions, etc from a script. But in the short-term, there is one shortcut to rule them all:  
 Highlight the code you want to run and `C-c C-c`
 
-`C-M-i` will start tab completion, opening a new window listing all possibilities from currently loaded packages.
+`C-M-i` will start tab completion, completing the text if there is only one possibility. If there are multiple possibilities, a new window will open listing all your choices from currently loaded packages.
 
 ## Getting help, aka RTFM
 
