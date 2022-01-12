@@ -80,7 +80,7 @@ If you want to re-run or edit previously entered code:
 `M-n` = cycle forward to *next* submissions  
 
 Something a little different is the ability to directly move your cursor to previously submitted code, and edit/interact with it like a text file.
-This means you can also edit a previous line and resubmit. Handy if you've made a silly error that needs correcting.
+This means you can also edit a previous line/code-chunk and resubmit. Handy if you've made a silly error that needs correcting.
 
 ![Alt](/04-correct.gif "Correcting a line above")
 
