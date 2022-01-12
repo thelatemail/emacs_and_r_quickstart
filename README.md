@@ -112,4 +112,5 @@ Repeating `C-s` will jump to the next instance.
 
 ## Plotting
 
-Any `plot` will open in a new window, as it would if you were using RGui
+By default, any `plot` will open in an entirely new window external to Emacs, as it would if you were using R through a terminal.  
+I'm a fan of this, because I like the possibility of multiple graphics devices and moving/resizing plots independently, as controlled by my window manager. Your mileage may vary on this.
