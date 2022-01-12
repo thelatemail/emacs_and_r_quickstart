@@ -95,8 +95,13 @@ Highlight the code you want to run and `C-c C-c`
 
 ## Getting help, aka RTFM
 
-The standard old `?function` will open the help file as requested, typically within a new window in Emacs. E.g. `?table` for help on the base R `table` function.  
-You can also use `C-c C-v` while at the R prompt, which will prompt you to start entering the function you would like to read the documentation for.
+The standard old `?function` will open the help file as requested, typically within a new window in Emacs. E.g. `?table` for help on the base R `table` function. 
+You can also use `C-c C-v` while at the R prompt, which will prompt you to start entering the function you would like to read the documentation for.  
+
+As an added bonus, since an R help file is recognised as having R code in it, you can skip to the examples and have them run in your R session.
+
+![Alt](/running_help.gif "Running help file scripts")
+
 
 ## Find and replace
 
