@@ -66,6 +66,10 @@ You're not going to get very far without copying and pasting from Stackoverflow.
 `C-w` = cut  
 `C-y` = paste (yank)  
 
+If you stuff up:
+
+`C-x u` = undo
+
 ## Running code
 
 ### At the prompt
