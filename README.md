@@ -103,4 +103,4 @@ Repeating `C-s` will jump to the next instance.
 - Specify the replace text
 - Then `!` does a global replacement, `y` replaces the first instance and skips to the next, `n` doesn't replace the first instance and skips to the next
 
-`M-C-%` (that's `M-C-shift-5`) is regex-based replacement. I'm not even going to try to explain regex if you're not familiar. Be aware that Emacs regex may not have every feature in your favourite implementation, see https://www.emacswiki.org/emacs/RegularExpression for full details
+`M-C-%` (that's `M-C-shift-5`) is identical to the above, but with regex-based replacement. I'm not even going to try to explain regex if you're not familiar. Be aware that Emacs regex may not have every feature in your favourite implementation, see https://www.emacswiki.org/emacs/RegularExpression for full details
