@@ -88,7 +88,7 @@ This means you can also edit a previous line/code-chunk and resubmit. Handy if y
 
 ### In an .R script
 
-There are shortcuts for executing lines, paragraphs, functions, etc from a script. But in the short-term, there is one shortcut to rule them all:  
+There are [many shortcuts](https://ess.r-project.org/Manual/ess.html#Evaluating-code) for executing lines, paragraphs, functions, etc from a script. But in the short-term, there is one shortcut to rule them all:  
 Highlight the code you want to run and `C-c C-c`
 
 `C-M-i` will start tab completion, completing the text if there is only one possibility. If there are multiple possibilities, a new window will open listing all your choices from currently loaded packages.
