@@ -60,7 +60,7 @@ If you want to change which 'buffer', or content, is shown in the current window
 
 ## Typing, copying and pasting
 
-You're not going to get very far without copying and pasting from Stackoverflow. So, at the basics:
+You're not going to get very far without copying and pasting from <strike>Stackoverflow</strike> your previous work. So, at the basics:
 
 `M-w` = copy  
 `C-w` = cut  
